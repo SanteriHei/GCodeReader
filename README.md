@@ -18,3 +18,4 @@ python cnc.py rectangle.gcode
    - Create readable error messages, provide the user context (i.e. line number), so that the errors are easy to locate and fix.
    - Doesn't implement all the GCodes due to time constraints, but technically
    implementing new codes is quite easy.
+   - Comments must be placed in separate lines.

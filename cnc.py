@@ -12,7 +12,7 @@ _PROGRAM_NUM_PATTERN = re.compile(r"^O[0-9]{4}$")
 _CMD_PATTERN = re.compile(r"^N[0-9]+\s.*$")
 _CMD_START_PATTERN = re.compile(r"^N[0-9]+|^G[0-9]+|^M[0-9]+|^S[0-9]+|^F[0-9]+")
 
-# 'Command type', which contains the required amount of parameters,
+# 'Command type', which contains the maximum amount of parameters for a command
 # and a callable
 Cmd = namedtuple("Cmd", ["n_args", "fn"])
 
